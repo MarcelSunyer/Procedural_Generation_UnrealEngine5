@@ -6568,3 +6568,245 @@ Sampler Limit: 32
 [2024.12.30-11.55.37:774][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
 [2024.12.30-11.55.37:790][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
 [2024.12.30-11.55.37:831][ 24]LogAutomationController: Ignoring very large delta of 5.09 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: ================================================
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Total job queries 241, among them cache hits 30 (12.45%), DDC hits 38 (15.77%), Duplicates 2 (0.83%)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Tracking 209 distinct input hashes that result in 154 distinct outputs (73.68%)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: RAM used: 121,09 KiB of 819,20 MiB budget. Usage: 0.01%
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Shaders Compiled: 171
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Jobs assigned 171, completed 171 (100%)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Average time worker was idle: 1.77 s
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Time job spent in pending queue: average 0.16 s, longest 2.59 s
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Job execution time: average 2.09 s, max 6.56 s
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Job life time (pending + execution): average 2.25 s, max 6.66
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Shader code size: average 10,654 KiB, min 4,121 KiB, max 18,93 KiB
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 43.64 s
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.01%
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Jobs were issued in 106 batches (only local compilation was used), average 1.61 jobs/batch
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Average processing rate: 3.92 jobs/sec
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Total thread time: 183,374 s
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Total thread preprocess time: 4,52 s
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Percentage time preprocessing: 2.46%
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Effective parallelization: 4.20 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight (compiled   11 times, average 2.09 sec, max 4.15 sec, min 1.43 sec)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy (compiled   11 times, average 1.81 sec, max 2.36 sec, min 1.46 sec)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display:                                                 FLumenCardCS (compiled   11 times, average 1.56 sec, max 2.42 sec, min 1.10 sec)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy (compiled   22 times, average 1.50 sec, max 3.32 sec, min 0.86 sec)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS (compiled   22 times, average 1.39 sec, max 3.23 sec, min 0.82 sec)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display:                                TMaterialCHSFNoLightMapPolicy - 18.01% of total time (compiled   22 times, average 1.50 sec, max 3.32 sec, min 0.86 sec)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display:                                      FPathTracingMaterialCHS - 16.64% of total time (compiled   22 times, average 1.39 sec, max 3.23 sec, min 0.82 sec)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display:                         TBasePassCSFNoLightMapPolicySkylight - 12.51% of total time (compiled   11 times, average 2.09 sec, max 4.15 sec, min 1.43 sec)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display:                                 TBasePassCSFNoLightMapPolicy - 10.84% of total time (compiled   11 times, average 1.81 sec, max 2.36 sec, min 1.46 sec)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display:                                                 FLumenCardCS - 9.33% of total time (compiled   11 times, average 1.56 sec, max 2.42 sec, min 1.10 sec)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: === Material stats ===
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Materials Cooked:        0
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Materials Translated:    154
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Material Total Translate Time: 0.09 s
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Material Translation Only: 0.04 s (43%)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (1%)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: Material Cache Hits: 15 (10%)
+[2024.12.30-11.57.04:134][411]LogShaderCompilers: Display: ================================================
+[2024.12.30-11.58.14:815][623]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 1696.353271
+[2024.12.30-11.58.16:152][627]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.30-11.58.16:152][627]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 1697.355591, Update Interval: 314.599457
+[2024.12.30-12.04.15:207][704]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2056.748047
+[2024.12.30-12.04.16:206][707]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2024.12.30-12.04.16:206][707]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2057.414062, Update Interval: 329.277618
+[2024.12.30-12.07.00:362][446]LogStreaming: Display: FlushAsyncLoading(693): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.30-12.07.00:426][446]LogInterchangeEngine: Display: Interchange start importing source [C:/Users/Marcel/Desktop/asdfasdfasdfasdfasdf.fbx]
+[2024.12.30-12.07.04:793][446]LogSlate: Window 'ImportContent' being destroyed
+[2024.12.30-12.07.04:838][446]LogInterchangeEngine: [Pendiente] Importando
+[2024.12.30-12.07.04:855][446]LogAutomationController: Ignoring very large delta of 4.51 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.12.30-12.07.04:883][447]LogStreaming: Display: FlushAsyncLoading(694): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.30-12.07.04:923][448]LogStreaming: Display: FlushAsyncLoading(696): 1 QueuedPackages, 0 AsyncPackages
+[2024.12.30-12.07.04:982][450]LogStaticMesh: Display: Malla estática de construcción asdfasdfasdfasdfasdf (Estimación de memoria necesaria: 6.962235 MB)...
+[2024.12.30-12.07.05:008][450]LogStaticMesh: Adjacency [0.00s], tris: 4446, UVs 1
+[2024.12.30-12.07.05:026][450]LogStaticMesh: Clustering [0.02s]. Ratio: 1.000000
+[2024.12.30-12.07.05:027][450]LogStaticMesh: Leaves [0.00s]
+[2024.12.30-12.07.05:243][456]LogStaticMesh: Reduce [0.22s]
+[2024.12.30-12.07.05:270][457]LogStaticMesh: Fallback [0.03s], num tris: 4444
+[2024.12.30-12.07.05:275][457]LogStaticMesh: ConstrainClusters:
+[2024.12.30-12.07.05:275][457]LogStaticMesh:   Input: 73 Clusters, 9212 Triangles and 14380 Vertices
+[2024.12.30-12.07.05:275][457]LogStaticMesh:   Output without splits: 73 Clusters, 9212 Triangles and 14405 Vertices
+[2024.12.30-12.07.05:275][457]LogStaticMesh:   Output with splits: 83 Clusters, 9212 Triangles and 14414 Vertices
+[2024.12.30-12.07.05:276][457]LogStaticMesh: Material Stats - Unique Materials: 2, Fast Path Clusters: 83, Slow Path Clusters: 0, 1 Material: 32, 2 Materials: 51, 3 Materials: 0, At Least 4 Materials: 0
+[2024.12.30-12.07.05:279][457]LogStaticMesh: WritePages:
+[2024.12.30-12.07.05:279][457]LogStaticMesh:   Root: GPU size: 29644 bytes. 1 Pages. 29644.000 bytes per page (90.466% utilization).
+[2024.12.30-12.07.05:279][457]LogStaticMesh:   Streaming: GPU size: 148536 bytes. 2 Pages (2 with relative encoding). 74268.000 bytes per page (56.662% utilization).
+[2024.12.30-12.07.05:279][457]LogStaticMesh:   Page data disk size: 142336 bytes. Fixup data size: 504 bytes.
+[2024.12.30-12.07.05:279][457]LogStaticMesh:   Total GPU size: 178180 bytes, Total disk size: 142840 bytes.
+[2024.12.30-12.07.05:279][457]LogStaticMesh: Encode [0.01s]
+[2024.12.30-12.07.05:279][457]LogStaticMesh: Nanite build [0.27s]
+
+[2024.12.30-12.07.05:294][457]LogStaticMesh: Built static mesh [0.31s] /Game/Procedural_Dungeon/Art/asdfasdfasdfasdfasdf.asdfasdfasdfasdfasdf
+[2024.12.30-12.07.05:969][461]LogInterchangeEngine: Display: Interchange import completed [C:/Users/Marcel/Desktop/asdfasdfasdfasdfasdf.fbx]
+[2024.12.30-12.07.05:969][461]Interchange: Warning: [C:/Users/Marcel/Desktop/asdfasdfasdfasdfasdf.fbx : “asdfasdfasdfasdfasdf“, StaticMesh] No se ha encontrado información del grupo de suavizado para esta malla 'Cube_069' en el archivo FBX. Asegúrate de habilitar la opción "Exportar grupos de suavizado" en el exportador FBX antes de exportar el archivo.
+[2024.12.30-12.07.06:015][461]LogInterchangeEngine: [Pendiente] Importando - Operation completed.
+[2024.12.30-12.07.06:015][461]LogInterchangeEngine: [Éxito] Se ha completado la importación
+[2024.12.30-12.07.07:048][492]LogMaterial: Display: Material /Game/Procedural_Dungeon/Art/dark_grey.dark_grey needed to have new flag set bUsedWithNanite !
+[2024.12.30-12.07.07:055][492]LogMaterial: Display: Material /Game/Procedural_Dungeon/Art/grey.grey needed to have new flag set bUsedWithNanite !
+[2024.12.30-12.07.12:143][788]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.30-12.07.12:218][788]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Procedural_Dungeon/Art/asdfasdfasdfasdfasdf] ([1] browsable assets)...
+[2024.12.30-12.07.12:226][788]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Procedural_Dungeon/Art/asdfasdfasdfasdfasdf.asdfasdfasdfasdfasdf]
+[2024.12.30-12.07.12:226][788]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural_Dungeon/Art/asdfasdfasdfasdfasdf]
+[2024.12.30-12.07.12:234][788]LogSavePackage: Moving output files for package: /Game/Procedural_Dungeon/Art/asdfasdfasdfasdfasdf
+[2024.12.30-12.07.12:234][788]LogSavePackage: Moving '../../../../Users/Marcel/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Saved/asdfasdfasdfasdfasdfE174C03A43C049C9ACA926B897D21651.tmp' to '../../../../Users/Marcel/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/Procedural_Dungeon/Art/asdfasdfasdfasdfasdf.uasset'
+[2024.12.30-12.07.12:248][788]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.928 ms (total: 2.18 sec)
+[2024.12.30-12.07.12:328][788]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.30-12.07.12:329][788]LogContentValidation: Enabled validators:
+[2024.12.30-12.07.12:329][788]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.30-12.07.12:329][788]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.30-12.07.12:329][788]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.30-12.07.12:329][788]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.30-12.07.12:329][788]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.30-12.07.12:329][788]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.30-12.07.12:329][788]AssetCheck: /Game/Procedural_Dungeon/Art/asdfasdfasdfasdfasdf Validando recurso
+[2024.12.30-12.07.12:916][819]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.30-12.07.13:006][819]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Procedural_Dungeon/Art/dark_grey] ([1] browsable assets)...
+[2024.12.30-12.07.13:014][819]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Procedural_Dungeon/Art/dark_grey.dark_grey]
+[2024.12.30-12.07.13:014][819]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural_Dungeon/Art/dark_grey]
+[2024.12.30-12.07.13:016][819]LogSavePackage: Moving output files for package: /Game/Procedural_Dungeon/Art/dark_grey
+[2024.12.30-12.07.13:016][819]LogSavePackage: Moving '../../../../Users/Marcel/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Saved/dark_grey00CAB39648768A68E6BE5AAD93A70BD9.tmp' to '../../../../Users/Marcel/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/Procedural_Dungeon/Art/dark_grey.uasset'
+[2024.12.30-12.07.13:033][819]LogFileHelpers: InternalPromptForCheckoutAndSave took 117.586 ms (total: 2.30 sec)
+[2024.12.30-12.07.13:118][819]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.30-12.07.13:118][819]LogContentValidation: Enabled validators:
+[2024.12.30-12.07.13:118][819]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.30-12.07.13:118][819]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.30-12.07.13:118][819]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.30-12.07.13:118][819]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.30-12.07.13:118][819]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.30-12.07.13:118][819]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.30-12.07.13:118][819]AssetCheck: /Game/Procedural_Dungeon/Art/dark_grey Validando recurso
+[2024.12.30-12.07.14:685][904]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.12.30-12.07.15:799][904]LogSlate: Window 'Guardar contenido' being destroyed
+[2024.12.30-12.07.15:817][904]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.30-12.07.15:894][904]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Procedural_Dungeon/Art/grey] ([1] browsable assets)...
+[2024.12.30-12.07.15:932][904]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Procedural_Dungeon/Art/grey.grey]
+[2024.12.30-12.07.15:932][904]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural_Dungeon/Art/grey]
+[2024.12.30-12.07.15:935][904]LogSavePackage: Moving output files for package: /Game/Procedural_Dungeon/Art/grey
+[2024.12.30-12.07.15:935][904]LogSavePackage: Moving '../../../../Users/Marcel/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Saved/greyC852B8BC45B30E631F4727B8E9D9C23E.tmp' to '../../../../Users/Marcel/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/Procedural_Dungeon/Art/grey.uasset'
+[2024.12.30-12.07.15:949][904]LogFileHelpers: InternalPromptForCheckoutAndSave took 131.291 ms (total: 2.43 sec)
+[2024.12.30-12.07.16:026][904]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.30-12.07.16:026][904]LogContentValidation: Enabled validators:
+[2024.12.30-12.07.16:026][904]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.30-12.07.16:026][904]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.30-12.07.16:026][904]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.30-12.07.16:026][904]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.30-12.07.16:026][904]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.30-12.07.16:026][904]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.30-12.07.16:026][904]AssetCheck: /Game/Procedural_Dungeon/Art/grey Validando recurso
+[2024.12.30-12.07.50:555][826]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.30-12.07.50:623][826]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Procedural_Dungeon/Dungeon_Room_4] ([2] browsable assets)...
+[2024.12.30-12.07.50:636][826]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Procedural_Dungeon/Dungeon_Room_4.Dungeon_Room_4]
+[2024.12.30-12.07.50:636][826]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural_Dungeon/Dungeon_Room_4]
+[2024.12.30-12.07.50:642][826]LogSavePackage: Moving output files for package: /Game/Procedural_Dungeon/Dungeon_Room_4
+[2024.12.30-12.07.50:644][826]LogSavePackage: Moving '../../../../Users/Marcel/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Saved/Dungeon_Room_420857AA44DE22A63250E73BC55FB10B4.tmp' to '../../../../Users/Marcel/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/Procedural_Dungeon/Dungeon_Room_4.uasset'
+[2024.12.30-12.07.50:659][826]LogFileHelpers: InternalPromptForCheckoutAndSave took 104.386 ms (total: 2.54 sec)
+[2024.12.30-12.07.50:733][826]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.30-12.07.50:733][826]LogContentValidation: Enabled validators:
+[2024.12.30-12.07.50:733][826]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.30-12.07.50:733][826]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.30-12.07.50:733][826]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.30-12.07.50:733][826]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.30-12.07.50:733][826]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.30-12.07.50:733][826]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.30-12.07.50:733][826]AssetCheck: /Game/Procedural_Dungeon/Dungeon_Room_4 Validando recurso
+[2024.12.30-12.07.52:858][949]LogContentBundle: [ThirdPersonMap(Autónomo)] Generating Streaming for 0 Content Bundles.
+[2024.12.30-12.07.52:858][949]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' started...
+[2024.12.30-12.07.52:859][949]LogWorldPartition: Display: GenerateStreaming for 'ThirdPersonMap' took 1.966 ms (total: 26.946 ms)
+[2024.12.30-12.07.52:860][949]LogPlayLevel: [PlayLevel] Compiling Dungeon_Room_4 before play...
+[2024.12.30-12.07.52:971][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2024.12.30-12.07.52:980][949]LogPlayLevel: PlayLevel: Blueprint regeneration took 120 ms (1 blueprints)
+[2024.12.30-12.07.52:980][949]LogPlayLevel: Creating play world package: /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.30-12.07.52:983][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002063s)
+[2024.12.30-12.07.52:983][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPerson/Maps/ThirdPersonMap.ThirdPersonMap to /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap (0.002104s)
+[2024.12.30-12.07.53:000][949]LogUObjectHash: Compacting FUObjectHashTables data took   1.03ms
+[2024.12.30-12.07.53:001][949]LogChaosDD: Creating Chaos Debug Draw Scene for world ThirdPersonMap
+[2024.12.30-12.07.53:003][949]LogWorldPartition: ULevel::OnLevelLoaded(ThirdPersonMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.12.30-12.07.53:003][949]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.12.30-12.07.53:003][949]LogWorldPartition: UWorldPartition::Initialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.12.30-12.07.53:003][949]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.12.30-12.07.53:003][949]LogWorldPartition: Display: WorldPartition initialize took 610 us (total: 173.171 ms)
+[2024.12.30-12.07.53:003][949]LogPlayLevel: PIE: World Init took: (0.002390s)
+[2024.12.30-12.07.53:004][949]LogAudio: Display: Creating Audio Device:                 Id: 20, Scope: Unique, Realtime: True
+[2024.12.30-12.07.53:004][949]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.12.30-12.07.53:004][949]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.12.30-12.07.53:004][949]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.12.30-12.07.53:004][949]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.12.30-12.07.53:004][949]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.12.30-12.07.53:004][949]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.12.30-12.07.53:004][949]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.12.30-12.07.53:004][949]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.12.30-12.07.53:004][949]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.12.30-12.07.53:004][949]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.12.30-12.07.53:004][949]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.12.30-12.07.53:006][949]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.12.30-12.07.53:029][949]LogAudioMixer: Display: Using Audio Hardware Device Altavoces (Realtek(R) Audio)
+[2024.12.30-12.07.53:030][949]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.12.30-12.07.53:030][949]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.12.30-12.07.53:030][949]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.12.30-12.07.53:031][949]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=20
+[2024.12.30-12.07.53:031][949]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=20
+[2024.12.30-12.07.53:033][949]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=20
+[2024.12.30-12.07.53:033][949]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=20
+[2024.12.30-12.07.53:033][949]LogInit: FAudioDevice initialized with ID 20.
+[2024.12.30-12.07.53:033][949]LogAudio: Display: Audio Device (ID: 20) registered with world 'ThirdPersonMap'.
+[2024.12.30-12.07.53:033][949]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 20
+[2024.12.30-12.07.53:038][949]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.12.30-12.07.53:039][949]LogWorld: Bringing World /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap up for play (max tick rate 60) at 2024.12.30-13.07.53
+[2024.12.30-12.07.53:039][949]LogWorld: Bringing up level for play took: 0.000628
+[2024.12.30-12.07.53:042][949]LogOnline: OSS: Created online subsystem instance for: :Context_35
+[2024.12.30-12.07.53:046][949]PIE: El servidor ha iniciado sesión
+[2024.12.30-12.07.53:048][949]PIE: Tiempo de inicio total de la reproducción en el editor de 0,19 segundos.
+[2024.12.30-12.07.53:861][970]LogBlueprintUserMessages: [Dungeon_Generator_C_UAID_D4939025BD888C3D02_1446639568] Running Timer
+[2024.12.30-12.07.54:855][ 27]LogBlueprintUserMessages: [Dungeon_Generator_C_UAID_D4939025BD888C3D02_1446639568] Running Timer
+[2024.12.30-12.07.55:779][ 82]LogBlueprintUserMessages: [Dungeon_Generator_C_UAID_D4939025BD888C3D02_1446639568] DUNGEON COMPLETE
+[2024.12.30-12.08.11:678][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.30-12.08.11:678][ 24]LogWorld: BeginTearingDown for /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap
+[2024.12.30-12.08.11:678][ 24]LogWorld: UWorld::CleanupWorld for ThirdPersonMap, bSessionEnded=true, bCleanupResources=true
+[2024.12.30-12.08.11:680][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.30-12.08.11:680][ 24]LogWorldPartition: UWorldPartition::Uninitialize : World = /Game/ThirdPerson/Maps/UEDPIE_0_ThirdPersonMap.ThirdPersonMap
+[2024.12.30-12.08.11:685][ 24]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.12.30-12.08.11:688][ 24]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.30-12.08.11:705][ 24]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.12.30-12.08.11:705][ 24]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 20
+[2024.12.30-12.08.11:705][ 24]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.12.30-12.08.11:707][ 24]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=20
+[2024.12.30-12.08.11:717][ 24]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2024.12.30-12.08.11:753][ 25]LogPlayLevel: Display: Destroying online subsystem :Context_35
+[2024.12.30-12.08.15:126][219]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.12.30-12.08.15:199][219]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Procedural_Dungeon/Dungeon_Room_4] ([2] browsable assets)...
+[2024.12.30-12.08.15:208][219]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Procedural_Dungeon/Dungeon_Room_4.Dungeon_Room_4]
+[2024.12.30-12.08.15:208][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/Procedural_Dungeon/Dungeon_Room_4]
+[2024.12.30-12.08.15:214][219]LogSavePackage: Moving output files for package: /Game/Procedural_Dungeon/Dungeon_Room_4
+[2024.12.30-12.08.15:215][219]LogSavePackage: Moving '../../../../Users/Marcel/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Saved/Dungeon_Room_42AF78BAD4039893E0FE18EA45B15B462.tmp' to '../../../../Users/Marcel/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/Procedural_Dungeon/Dungeon_Room_4.uasset'
+[2024.12.30-12.08.15:228][219]LogFileHelpers: InternalPromptForCheckoutAndSave took 102.495 ms (total: 2.64 sec)
+[2024.12.30-12.08.15:302][219]LogContentValidation: Display: Starting to validate 1 assets
+[2024.12.30-12.08.15:302][219]LogContentValidation: Enabled validators:
+[2024.12.30-12.08.15:304][219]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2024.12.30-12.08.15:304][219]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2024.12.30-12.08.15:304][219]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2024.12.30-12.08.15:304][219]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2024.12.30-12.08.15:304][219]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2024.12.30-12.08.15:304][219]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2024.12.30-12.08.15:304][219]AssetCheck: /Game/Procedural_Dungeon/Dungeon_Room_4 Validando recurso
+[2024.12.30-12.08.16:365][281]LogSlate: Window 'Dungeon_Room_4' being destroyed
+[2024.12.30-12.08.16:378][281]LogSlate: Window 'Dungeon_Room_4' being destroyed
+[2024.12.30-12.08.16:417][281]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2024.12.30-12.08.16:417][281]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.12.30-12.08.16:492][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.18ms
+[2024.12.30-12.08.18:893][420]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2024.12.30-12.08.19:886][420]LogSlate: Window 'Delete Assets' being destroyed
+[2024.12.30-12.08.19:951][420]LogUObjectGlobals: Force Deleting 3 Package(s):
+	Asset Name: /Game/Procedural_Dungeon/Art/asdfasdfasdfasdfasdf.asdfasdfasdfasdfasdf
+	Asset Type: StaticMesh
+	Asset Name: /Game/Procedural_Dungeon/Art/dark_grey.dark_grey
+	Asset Type: Material
+	Asset Name: /Game/Procedural_Dungeon/Art/grey.grey
+	Asset Type: Material
+[2024.12.30-12.08.20:405][420]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.12.30-12.08.20:425][420]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.12.30-12.08.20:444][420]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
