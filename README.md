@@ -22,9 +22,3 @@ The system uses a combination of algorithms to:
 4. **Apply a random seed** to ensure consistent results when regenerating.
 
 The random seed allows you to recreate the same layout multiple times, which is useful for debugging or sharing specific levels.
-
-## Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
