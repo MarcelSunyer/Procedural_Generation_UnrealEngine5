@@ -6,6 +6,12 @@
 			"description": "Lista de cambios no controlados predeterminada",
 			"files": [
 				"C:/Users/marce/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/Procedural_Dungeon/Dungeon_Generator.uasset",
+				"C:/Users/marce/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/Procedural_Dungeon/Dungeon_Room_2.uasset",
+				"C:/Users/marce/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/Procedural_Dungeon/Dungeon_Room_1.uasset",
+				"C:/Users/marce/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/Procedural_Dungeon/Dungeon_Room_3.uasset",
+				"C:/Users/marce/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/Procedural_Dungeon/Dungeon_Room_4.uasset",
+				"C:/Users/marce/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/Procedural_Dungeon/Dungeon_Room_5.uasset",
+				"C:/Users/marce/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/ThirdPerson/Blueprints/BP_ThirdPersonCharacter.uasset",
 				"C:/Users/Marcel/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/S1/DXUWD12MD3HRWVVXX076BY.uasset",
 				"C:/Users/Marcel/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/Procedural_Dungeon/Dungeon_Generator.uasset",
 				"C:/Users/Marcel/Documents/GitHub/Procedural_Generation_UnrealEngine5/ProceduralGeneration/Content/Procedural_Dungeon/Master_Room.uasset",
